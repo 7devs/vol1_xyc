@@ -16,8 +16,8 @@ var arrB = ['rr','ttt'];
 // console.log(arr);
 //
 // console.log(arr.reverse());
- console.log(arr);
+// console.log(arr);
 // console.log(arr.slice(1,-2));
 
-console.log(arr.splice(-2,1));
-console.log(arr);
+// console.log(arr.splice(-2,1));
+// console.log(arr);
