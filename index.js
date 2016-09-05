@@ -54,3 +54,15 @@
 // }
 //
 // alert(fun3);
+
+// var obj = {
+//   name:function(a) {
+//     return a;
+//   }
+// }
+//
+// console.log(obj.name(55));
+
+// var c = 'asdsdad';
+// document.write(c);
+// document.write(c.big());
