@@ -1,4 +1,4 @@
-function toolTest() {
+var toolTest = function(){
   console.log('toolTest!!!!!!!');
 }
 

@@ -15,7 +15,12 @@ router.route('/:id')
           query: req.query,
           params: req.params
         });
-        res.status(200).send(newsModel[req.params.id-1]);
+
+        if(newsModel.length >= req.params.id) {
+            res.status(200).send(newsModel[req.params.id-1]);
+        } else {
+            res.status(404).send('Not Found.');
+        }
     })
     .delete(function(req, res, next) {
         newsModel.splice(req.params.id-1,1)
