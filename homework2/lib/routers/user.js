@@ -28,7 +28,7 @@ router.route('/search')
           }
       }
       if(arr) {
-        res.status(200).send({"ageAvg":ageAvg});
+        res.status(200).send(arr);
       } else {
         res.status(404).send('Not Found.');
       }
