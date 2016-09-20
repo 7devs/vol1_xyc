@@ -23,7 +23,7 @@ router.route('/search')
       var company = req.query.company.toLowerCase();
       var arr = [];
       for(var i=0;i<usersModel.length;i++) {
-          if(company == usersModel[i].company) {
+          if(company == usersModel[i].company.toLowerCase()) {
               arr.push(usersModel[i]);
           }
       }
